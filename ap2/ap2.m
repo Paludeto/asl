@@ -34,3 +34,10 @@ end
 
 plot(t4, x4);
 % saveas(gcf, "img/x4(t).png")
+
+t5 = 0:0.01:4;
+cd = -log(0.7) / 2;
+x5 = exp(-cd * t5) .* cos(2 * pi * 2 * t5);
+
+plot(t5, x5);
+% saveas(gcf, "img/x5(t).png");
