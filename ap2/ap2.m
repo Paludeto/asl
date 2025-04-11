@@ -25,7 +25,7 @@ x3 = 3 - imag(exp((-4 + pi * j) * t3));
 plot(t3, x3);
 % saveas(gcf, "img/x3(t).png")
 
-t4 = 0:0.01:7;
+t4 = 0:0.001:7;
 x4 = zeros(size(t4));   % Inicializa um vetor preenchido com 0s, do tamanho de t4
 
 for k = 1:5
